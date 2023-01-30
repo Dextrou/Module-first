@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+    #label1,#label2{
+        background-color: rebeccapurple;
+        border-radius: 10ch;
+        opacity: 1;
+    }
+    #name,#email{
+    background-color: rgb(221, 153, 63);
+
+    }
+    #button1,#button2{
+       background-color: aqua;
+       color: black;
+    }
+</style>
+    </head>
+    <body>
+        <form>
+            <table>
+                <tr>
+            <label id="label1" name="Enter your name">Enter Your NAME</label><br>
+            <input id="name" type="text" placeholder="Please Enter Your Name" required/><br><br> </tr>
+            <label id="label2" name="Password">Enter Your Email</label><br><tr>
+                <input id="email" type="email" placeholder="Please Enter Your Password" maxlength="40" minlength="10" required/>
+            </tr><br>
+                <tr >
+                    <td>
+                <input id="button1" type="button" value="Submit"/>
+                </td>
+                <td>
+                    <input id="button2" type="button" value="Reset"/>
+                </td>
+                </tr>
+        </table>
+        </form>
+    </body>
+</html>
