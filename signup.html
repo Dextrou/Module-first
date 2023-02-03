@@ -9,6 +9,11 @@
         margin-top: 40px;
         margin-left:120px;
         width: 400px;
+        justify-content: center;
+        display: flex;
+    }
+    div{
+        align-items: center;
     }
     input{
     color: red;
@@ -32,6 +37,7 @@
 </style>
     </head>
     <body>
+        <div>
     <form action="" method="post">
     <fieldset>
         <legend>FEEDBACK</legend>
@@ -42,14 +48,15 @@
     <label for="email">Enter Your's Email</label><br>
     <input type="email" id="email" placeholder="Enter valid Email" required><br>
     <label for="phoneNumber">Enter Phone Number</label><br>
- 
     <input type="tel" id="phoneNumber" name="phone" placeholder="Enter Phone Number" minlength=10 maxlength="10"  required ><br>
     <label for="dateofbirth">Enter Date-of-birth</label><br>
     <input type="date" id="dateofbirth"><br>
     <input type="checkbox" id="checkbox" required>
     <label for="checkbox" required>I agree on this terms and conditions</label><br>
-    <input type="submit"  value="SignUp" required>
+    <input type="submit"  value="SignUp" style="margin-top:10px;" required>
     <input type="reset" value="Reset">
-</form></fieldset>
+</fieldset>
+</form>
+</div>
     </body>
 </html>
